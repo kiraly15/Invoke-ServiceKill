@@ -13,6 +13,6 @@ function Invoke-ServiceKill
 #        [string]
 #        $Service
 #    )
-Stop-Service CylanceSVC
+Stop-Service $Service
 }
 
